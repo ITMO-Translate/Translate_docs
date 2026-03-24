@@ -31,11 +31,12 @@ Russian Text Simplifier
 - 📁 Russian-text-simplifier # Репозиторий основного приложения
 - 📁 Promt # Репозиторий промптов и шаблонов
 
-## 📦 Repository: Docs
+##  Repository: Docs
 
 ```text
 Docs/
 └── README.md
+└── Documentation.md
 ```
 
 **Описание:**
@@ -48,7 +49,7 @@ Docs/
 
 ---
 
-## 📦 Repository: translate-app
+##  Repository: translate-app
 
 ```text
 translate-app/
@@ -96,7 +97,7 @@ translate-app/
 
 ---
 
-## 📦 Repository: Prompt
+##  Repository: Prompt
 
 ```text
 Prompt/
@@ -116,7 +117,7 @@ Prompt/
 ---
 
 
-## 🧩 Архитектурная схема (логическая)
+##  Архитектурная схема (логическая)
 
 ```text
 [Frontend (translator.html)]
@@ -135,7 +136,7 @@ Prompt/
             ↓
         Excel Report
 ```
-## 📦 Основные компоненты
+##  Основные компоненты
 
 ### 1. TranslatorController
 Главный MVC-контроллер, обрабатывающий все веб-запросы.
