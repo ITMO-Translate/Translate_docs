@@ -292,11 +292,13 @@ public class TranslatorService {
 ### Конфигурация (application.yml)
 
 ```yaml
-llm:
-  api:
-    url: ${LLM_API_URL:https://api.example.com/v1/completions}
-    key: ${LLM_API_KEY:your-api-key}
-    model: ${LLM_MODEL:gpt-4}
+spring:
+  application:
+    name: code
+gemini:
+  base-url: https://generativelanguage.googleapis.com
+  api-key: ${GEMINI_API_KEY}
+  model: gemini-2.5-flash
 
 textometr:
   api:
