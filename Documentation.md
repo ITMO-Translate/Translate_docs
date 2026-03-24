@@ -400,26 +400,10 @@ http://localhost:8080/translator
 
 ---
 
-## 🧪 Тестирование
-
-```bash
-./gradlew test
-./gradlew test --tests TranslatorServiceTest
-```
-
-### Покрытие
-
-* Unit тесты
-* Integration тесты
-* Controller тесты (MockMvc)
-
----
-
 ##  Известные ограничения
 
 * Нет постоянного хранения (только сессия)
 * История теряется при перезапуске
-* Один пользователь
 * Лимиты API
 * Ограничения длины текста
 
